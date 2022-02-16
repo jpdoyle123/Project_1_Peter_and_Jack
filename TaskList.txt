@@ -1,8 +1,6 @@
 Tasks
--Finish and clean up Jupyter file
--convert that to .py file
--Build .py function to get data and build df based on questionary currency pair result
--Build .py function to calculate buy/sell indicator
--Integrate both functions into main application with formatted outputs
+-Comment code
+-Fill out currency list and build into code
 -Create clean Jupyter file with relevant outputs/graphs
-	-Copy file for all pairs
+	-Copy file for all pairs in currency list
+
