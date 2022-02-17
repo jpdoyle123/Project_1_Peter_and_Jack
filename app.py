@@ -11,9 +11,14 @@ from Functions.indicator import indicator
 load_dotenv()
 fred_api_key = os.getenv('FRED_API_KEY')
 
-category_name = questionary.select('Which currency pair do you want to evaluate?', choices = ['USD/EUR', 'Yen/USD']).ask()
+category_name = questionary.select('Which currency pair do you want to evaluate?', choices = ['USD/EUR', 'JPY/USD', 'USD/GBP', 'CAD/USD', 'MXN/USD']).ask()
 print('Now analyzing...')
-categories = {'USD/EUR' : 'DEXUSEU', 'Yen/USD' : 'DEXJPUS'}
+categories = {'USD/EUR' : 'DEXUSEU',
+              'Yen/USD' : 'DEXJPUS',
+              'USD/GBP' : 'DEXUSUK',
+              'CAD/USD' : 'DEXCAUS',
+              'MXN/USD' : 'DEXMXUS'
+             }
 category_id = categories[category_name]
 
 if category_name == 'USD/EUR':
