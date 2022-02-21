@@ -1,6 +1,0 @@
-Tasks
--Comment code
--Fill out currency list and build into code
--Create clean Jupyter file with relevant outputs/graphs
-	-Copy file for all pairs in currency list
-
