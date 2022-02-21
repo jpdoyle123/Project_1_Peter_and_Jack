@@ -65,5 +65,5 @@ else:
     filepath = 'MXN_USD_Charts.ipynb'
 
     
-print(f'voila {filepath}')
+print(f'voila Charts/{filepath}')
     
